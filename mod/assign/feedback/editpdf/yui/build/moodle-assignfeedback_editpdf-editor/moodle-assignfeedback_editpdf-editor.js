@@ -1,13 +1,13 @@
 YUI.add('moodle-assignfeedback_editpdf-editor', function (Y, NAME) {
 
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -85,14 +85,14 @@ var AJAXBASE = M.cfg.wwwroot + '/mod/assign/feedback/editpdf/ajax.php',
         'highlight': '.highlightbutton'
     },
     STROKEWEIGHT = 4;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -158,14 +158,14 @@ var POINT = function(x, y) {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.point = POINT;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -301,14 +301,14 @@ var RECT = function(x, y, width, height) {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.rect = RECT;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -405,14 +405,14 @@ var EDIT = function() {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.edit = EDIT;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -517,14 +517,14 @@ var DRAWABLE = function(editor) {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.drawable = DRAWABLE;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -856,14 +856,14 @@ Y.extend(ANNOTATION, Y.Base, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.annotation = ANNOTATION;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -976,14 +976,14 @@ Y.extend(ANNOTATIONLINE, M.assignfeedback_editpdf.annotation, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.annotationline = ANNOTATIONLINE;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -1090,14 +1090,14 @@ Y.extend(ANNOTATIONRECTANGLE, M.assignfeedback_editpdf.annotation, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.annotationrectangle = ANNOTATIONRECTANGLE;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -1204,14 +1204,14 @@ Y.extend(ANNOTATIONOVAL, M.assignfeedback_editpdf.annotation, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.annotationoval = ANNOTATIONOVAL;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -1364,14 +1364,14 @@ Y.extend(ANNOTATIONPEN, M.assignfeedback_editpdf.annotation, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.annotationpen = ANNOTATIONPEN;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -1517,14 +1517,14 @@ Y.extend(ANNOTATIONHIGHLIGHT, M.assignfeedback_editpdf.annotation, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.annotationhighlight = ANNOTATIONHIGHLIGHT;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -2377,14 +2377,14 @@ Y.Base.modifyAttrs(COMMENTSEARCH, {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.commentsearch = COMMENTSEARCH;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -3026,14 +3026,14 @@ var COMMENT = function(editor, gradeid, pageno, x, y, width, colour, rawtext) {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.comment = COMMENT;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -3090,14 +3090,14 @@ var QUICKCOMMENT = function(id, rawtext, width, colour) {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.quickcomment = QUICKCOMMENT;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
@@ -3297,14 +3297,14 @@ var QUICKCOMMENTLIST = function(editor) {
 
 M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
 M.assignfeedback_editpdf.quickcommentlist = QUICKCOMMENTLIST;
-// This file is part of Moodle - http://moodle.org/
+// This file is part of TechKiteLMS- http://lms.techkite.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
+// TechKiteLMS is open-source software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
+// TechKiteLMS is distributed & decentraliz in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
